@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyNotes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><img src="../image.png" alt="MyNotes Icon" style="width: 80px; height: 80px; border-radius: 50%;"> MyNotes</h1>
+            <p>Welcome to your personal note and link organizer!</p>
+        </header>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="notes-tab" data-toggle="tab" href="#notes" role="tab">Saved Notes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="links-tab" data-toggle="tab" href="#links" role="tab">Saved Links</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="notes" role="tabpanel">
+                <input type="text" id="search-note-input" placeholder="Search Notes...">
+                <form id="add-note-form">
+                    <input type="text" id="note-input" placeholder="Enter Your Note...">
+                    <button type="submit" id="add-note-btn">Add Note</button>
+                </form>
+                <div id="notes-list"></div>
+            </div>
+
+            <div class="tab-pane fade" id="links" role="tabpanel">
+                <input type="text" id="search-link-input" placeholder="Search Links...">
+                <form id="add-link-form">
+                    <input type="text" id="link-input" placeholder="Enter Link Name...">
+                    <button type="submit" id="add-link-btn">Continue</button>
+                </form>
+                <div id="links-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/popup.js"></script>
+
+    <!-- BEGIN: Developer Info -->
+    <footer>
+        <p>Developed by <a href="https://linkedin.com/in/gemechischala">Gemechis Chala</a></p>
+    </footer>
+    <!-- END: Developer Info -->
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "MyNotes",
+  "version": "1",
+  "description": "A Chrome extension for organizing notes and links easily.",
+  "icons": {
+    "128": "image.png"
+  },
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background/background.js"
+  }
+}

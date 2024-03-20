@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfbfff; /* Light gray background */
+    padding: 20px;
+    color: #333; /* Dark text color */
+    width: 400px; /* Set width of the extension */
+    height: 600px; /* Set height of the extension */
+    overflow: auto; /* Enable scrolling if content overflows */
+}
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+    background-color: #efdfff; /* Or any color you want */
+    border-radius: 15px;
+    padding: 20px;
+    overflow: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #512da8; /* Purple heading color */
+}
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+.tab-pane {
+    height: 80%; /* Set height of the tab content */
+    overflow: auto; /* Enable scrolling if content overflows */
+}
+
+input[type="text"], form {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #512da8; /* Purple border */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1976d2; /* Blue button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+#notes-list div,
+#links-list div {
+    padding: 10px;
+    background-color: #bbffff; /* Light purple background */
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+#notes-list div:hover,
+#links-list div:hover {
+    background-color: #a3e1ff; /* Light blue background on hover */
+}
+
+#notes-list p,
+#links-list p {
+    margin: 0;
+}
+
+a {
+    color: #512da8; /* Purple link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #311b92; /* Darker purple on hover */
+}
