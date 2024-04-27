@@ -10,6 +10,14 @@ ScorpiNotes is a powerful note-taking Chrome extension that allows you to easily
 - **Copy to Clipboard**: Copy notes to your clipboard for easy sharing or pasting into other applications.
 - **Separate Tab for Links and Notes**: Keep your links and notes organized in separate tabs for better management.
 
+## Screenshot
+<p float="left">
+  <img src="https://github.com/gladsonchala/ScorpiNotes/blob/main/photo_2024-04-27_10-56-34.jpg" width="300" /> 
+  <img src="https://github.com/gladsonchala/ScorpiNotes/blob/main/photo_2024-04-27_10-56-48.jpg" width="400" />
+</p>
+
+
+
 ## Installation
 
 > Since I do not have an account, it is currently not available on the Chrome Webstore, but you can install it manually by following below steps.
